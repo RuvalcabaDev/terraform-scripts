@@ -1,0 +1,25 @@
+# Ignorar archivos binarios y comprimidos
+*.zip
+
+# Ignorar configuraciones locales
+*.tfstate
+*.tfstate.backup
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar directorios de Terraform
+.terraform/
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos de salida
+*.out
+
+# Ignorar configuraciones específicas del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos Python
+*.py

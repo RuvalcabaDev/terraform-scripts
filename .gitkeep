@@ -1,0 +1,2 @@
+# This file ensures the package directory is tracked by Git
+# The directory will be used for Lambda deployment packages

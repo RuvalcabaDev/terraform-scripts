@@ -94,7 +94,7 @@ variable "lambda_timeout" {
 variable "fastapi_container_image" {
   description = "URI de la imagen Docker en ECR para la API FastAPI."
   type        = string
-  default     = "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/mi-fastapi-repo:latest" # Reemplazar después de crear ECR y subir la imagen
+  default     = "571600871147.dkr.ecr.us-east-1.amazonaws.com/reconciliation-dev-fastapi-api-repo:latest"
 }
 
 variable "fastapi_container_port" {
